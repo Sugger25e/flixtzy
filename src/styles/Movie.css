@@ -1,0 +1,53 @@
+.movie-container {
+    padding: 20px;
+    text-align: center;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.movie-iframe {
+    width: 100%; 
+    height: 500px; 
+    max-width: 1000px; 
+    margin-bottom: 20px; 
+    margin: auto;
+}
+
+.movie-title {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #333;
+    text-align: center;
+}
+
+.adb-suggest {
+    background-color: #21616a;
+    padding: 10px
+}
+
+
+.adb-imgs img {
+    width: 100px;
+    margin: 0 5px;
+}
+
+@media (max-width: 768px) {
+    .movie-iframe {
+        height: 300px;
+    }
+
+    .movie-title {
+        font-size: 1.5em;
+    }
+}
+
+@media (max-width: 480px) {
+    .movie-iframe {
+        height: 250px;
+    }
+
+    .movie-title {
+        font-size: 1.2em; 
+    }
+}
